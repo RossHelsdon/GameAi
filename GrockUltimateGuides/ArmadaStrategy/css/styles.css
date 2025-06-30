@@ -141,6 +141,10 @@ footer {
         width: 250px;
         z-index: 1000;
         overflow-y: auto;
+        display: none; /* Hidden by default on mobile */
+    }
+    .sidebar.show {
+        display: block; /* Shown when toggled */
     }
     #navbar-placeholder {
         display: none;
@@ -149,18 +153,10 @@ footer {
         margin-top: 70px; /* Adjust for top spacing on mobile */
     }
     .navbar-toggler {
-        display: block !important; /* Ensure toggler is always visible on mobile */
         border-color: #007bff; /* Match theme color */
-        background-color: transparent;
-        z-index: 1001;
     }
     .navbar-toggler-icon {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 123, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-    }
-    .navbar-collapse {
-        background-color: #e9ecef;
-        height: 100vh;
-        overflow-y: auto;
     }
 }
 

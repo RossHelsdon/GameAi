@@ -10,6 +10,8 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Placeholder for Navigation Bar to prevent layout shift -->
+    <div id="navbar-placeholder"></div>
     <!-- Navigation Bar -->
     <div id="navbar-container"></div>
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -26,6 +28,8 @@
                         $(this).attr('aria-current', 'page');
                     }
                 });
+                // Hide placeholder once navbar is loaded
+                $("#navbar-placeholder").hide();
             });
         });
     </script>

@@ -1,0 +1,56 @@
+In this video I’ll cover a few really important
+things I wish I knew when I started playing Beyond All Reason. These tips are game changing, let’s get
+started with some basics! Find your commander any time by pressing Ctrl+C
+You can see all your idle buildings and workers here and can cycle through them with Ctrl+B.
+And if you hear a ping or alert, press F3 to see it. Now your commander comes with the D-gun. [hotkey D]
+For 500 energy you can one hit kill anything in its path but it has a short range. So obviously you can’t just walk up to an
+experimental unit and try this, instead you’ll need to learn about your cloak. [hotkey K]
+Cloaked units that stand still cost only a little bit of energy per second; it costs
+more if you move. Note that cloaked units will still appear
+on the radar and can be revealed by countermeasures or if an enemy gets too close to you. Your commander has the highest build power
+in the game! Use it to assist with critical projects! And notice how your commander has a line of
+sight and this farther green dotted range? That’s your radar range. It can allow you to attack units and buildings
+beyond your line of sight. However, attacking into the fog of war is
+pretty inaccurate. Later on, at tier 2, you can build structures
+which increase the accuracy of long range fire but the buff gets smaller with each building
+so it’s advised to build no more than 3 for an entire allied team. Also, radar can’t see past physical barriers
+so try to place them up high and near the edge of the terrain to get the best view possible. And don’t forget that you can dumb fire
+into the fog of war if you know enemies or structures are there. Be sure to check BAR’s really helpful online
+guides and Discord to learn even more tips and tricks that I didn’t cover On to building and combat tips worth knowing
+right away: [One metal extractor per deposit]
+If you plan on using wind energy, hover your mouse over the wind icon to note the average
+wind power on your map and to learn if wind power is even viable. So you know how to hold shift to queue up
+any action right? Let’s say you want to insert an action in
+front of a queue without canceling and starting over. Just hold the Spacebar when you add a new
+action to insert it to the front of the queue. You can also use SHIFT to build multiple things
+in a line, hold SHIFT+ALT to build in a rectangle, And multiple constructors can split the queue
+amongst them. But beware, buildings explode when destroyed
+and this can cause a chain reaction … Devastating! To prevent this, space your building out. [Shift+Alt+Z or X]
+Once a building or unit is placed, click on them and hold Space + X to see 2 red rings
+that show the explosion radius for death and a glowing one for self detonation (Ctrl+D)
+which is useful for surprising enemy swarms and preventing them from reclaiming your metal. Finally, if you build basic solar collectors
+or Tier 1 Energy-to-Metal converters, you can reclaim these less efficient buildings
+once you get started on Tier 2 to reclaim a good amount of metal that you might be needing. Phew…That’s enough for building shortcuts,
+now let’s look at some army commands. Ctrl+Click will get your group to move in
+formation (That means, they’ll move at the speed of the slowest unit in the group). If you hold click and move your mouse in a
+line, your selected army will set themselves up evenly across the line you drew. Excellent for perching an army next to a cliff
+or around units. Don’t forget that flanking an enemy or building
+(meaning you attack them from more than one side) will increase the total amount of damage
+your units can output. And note that at max range lasers only do
+50% damage but this increases up to 100% you’re right up against them. Some actions like repairing, attacking, and
+reclaiming can be set to an area by clicking and dragging on the object. This creates a round zone of action for your
+units. OK, now let’s say that you’re producing
+units like crazy and lost track of where some of them went. No problem! Just select the units you’re looking for
+and press Ctrl+Z to select all of them on the entire map! You can also double click to do the same thing
+but this will only capture the ones within your view screen. Here are some final tips you may not know. Units with higher ranks have reduced reload
+times and higher health! Bots have a greater ability to traverse rough
+and hilly terrain than vehicles do. However, amphibious vehicles can move along
+uneven terrain as well and hovering vehicles cannot be attacked by underwater torpedoes
+from submarines. The corners of a unit’s icon show whether
+it can attack air, land, or under water! There’s some really critical info here: And when you're setting up a game you can
+change locations, number, and the size of the spawn zones. There’s also tons of ways to customize your
+gameplay experience, for example, under Accessibility you can specify that teams can share one colour
+or everyone can have their own. Finally, hold Alt and slide your mouse to
+the edge of the screen or use the middle mouse button to change your perspective. Don’t forget to sub and share my channel
+with others. I make all sorts of funny reviews and easy
+to follow guides! 

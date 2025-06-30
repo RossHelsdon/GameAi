@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond All Reason: Walls Guide</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        h1 {
+            text-align: center;
+            color: #212529;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+        h5 {
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-body {
+            padding: 15px;
+            flex: 1;
+            overflow-y: auto;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        strong {
+            color: #dc3545;
+        }
+        .row {
+            margin-bottom: 20px;
+        }
+        .col-md-6, .col-md-12 {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #6c757d;
+            font-size: 0.8rem;
+        }
+        .navbar {
+            margin-bottom: 30px;
+        }
+        @media (max-width: 768px) {
+            .col-md-6, .col-md-12 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Armada Strategy Guide</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="early_game_economy.html">Early Game Economy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="frontline_defense.html">Frontline Defense</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="late_game_scaling.html">Late Game Scaling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shortcuts_cheat_sheet.html">Shortcuts Cheat Sheet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cortex_bots_guide.html">Cortex Bots Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="economy_guide.html">Economy Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="turrets_t1_guide.html">T1 Turrets Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="walls_guide.html">Walls Guide</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Walls Guide</h1>
+        <p class="text-center mb-4">A comprehensive guide to using walls in Beyond All Reason, integrated into the Armada Strategy Guide. Learn the tactical applications, benefits, and limitations of walls to enhance your defensive strategies.</p>
+
+        <!-- Introduction Section -->
+        <div class="row">
+            <h5 class="w-100">Overview</h5>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Understanding Walls</h6>
+                        <p>This guide explores the use of walls in Beyond All Reason, focusing on their strategic value for defense and battlefield control. Integrated into the Armada Strategy Guide, the information applies across factions, offering Armada players insights into walling tactics for personal use and anticipating enemy setups. Walls are evaluated for their effectiveness, limitations, and situational applications to help you make informed decisions during competitive matches.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Walls Details Section -->
+        <div class="row">
+            <h5 class="w-100">Types of Walls and Their Uses</h5>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Dragon's Teeth (T1 Walls)</h6>
+                        <ul>
+                            <li><strong>Cost</strong>: Low metal cost, economical for early game.</li>
+                            <li><strong>Role</strong>: Basic defensive barrier to block direct fire and slow enemy movement.</li>
+                            <li><strong>Benefits</strong>: Effective against T1 direct fire units like <strong>Janis</strong> and <strong>Rocket Bots</strong>; absorbs significant damage, protecting units behind.</li>
+                            <li><strong>Drawbacks</strong>: Does not protect T1 defenses (e.g., <strong>Sentry Towers</strong>) as projectiles often arc over; less effective against artillery or units with high arc trajectories (e.g., <strong>Bulls</strong>).</li>
+                            <li><strong>Tactical Use</strong>: Place in sparse patterns to allow unit movement (e.g., <strong>Rocket Bots</strong>) while blocking key paths; ideal for early game defense at chokepoints or to create fallback positions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">T2 Walls</h6>
+                        <ul>
+                            <li><strong>Cost</strong>: Higher metal and build power cost compared to T1 walls.</li>
+                            <li><strong>Role</strong>: Stronger barrier for mid to late game defense.</li>
+                            <li><strong>Benefits</strong>: Blocks a wider range of projectiles, including some T1 and T2 unit attacks (e.g., <strong>Gunslingers</strong>, <strong>Stouts</strong> at certain ranges); protects T1 defenses better than <strong>Dragon's Teeth</strong>.</li>
+                            <li><strong>Drawbacks</strong>: Still vulnerable to high-arc artillery (e.g., <strong>Starlights</strong> at extreme ranges) and T3 units that can crush through; blocks friendly unit movement if overbuilt.</li>
+                            <li><strong>Tactical Use</strong>: Use in checkerboard patterns to create formidable defenses while allowing unit egress; effective against mid-game pushes when paired with static defenses like <strong>Pulsars</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Strategic Applications Section -->
+        <div class="row">
+            <h5 class="w-100">Strategic Applications</h5>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Creating Attack Voids</h6>
+                        <ul>
+                            <li><strong>Psychological Impact</strong>: Walls deter enemy attacks by creating perceived barriers, often forcing opponents to seek alternate routes.</li>
+                            <li><strong>Funneling Enemies</strong>: Strategically placed walls (even partial) can funnel enemy units into kill zones or predictable paths for ambushes with area-of-effect weapons or static defenses.</li>
+                            <li><strong>Tactical Use</strong>: Design walls to guide enemy movement (e.g., around natural features or chokepoints) and plan defenses or mobile units to exploit these paths.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Supporting Static Defenses</h6>
+                        <ul>
+                            <li><strong>Enhancing Survivability</strong>: Walls increase the durability of static defenses (e.g., <strong>Rattlesnakes</strong>, <strong>Pulsars</strong>) by absorbing initial enemy fire.</li>
+                            <li><strong>Pairing with Units</strong>: Combine with fast units (e.g., <strong>Pawns</strong>, <strong>Hounds</strong>) to sally forth and counterattack, or hide powerful defenses like <strong>Pop-Up Lightning Turrets</strong> behind for surprise damage.</li>
+                            <li><strong>Tactical Use</strong>: Place walls in front of key defenses to shield against direct fire; ensure spacing for units to maneuver and counter enemy breaches.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Limitations and Considerations Section -->
+        <div class="row">
+            <h5 class="w-100">Limitations and Considerations</h5>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Projectile Penetration</h6>
+                        <ul>
+                            <li><strong>T1 Walls Weakness</strong>: <strong>Dragon's Teeth</strong> often fail to block high-arc projectiles, leaving T1 defenses (e.g., <strong>Sentry Towers</strong>) exposed.</li>
+                            <li><strong>Diagonal Walls Issue</strong>: Diagonal walls catch fewer projectiles compared to straight walls, allowing more enemy fire to pass through.</li>
+                            <li><strong>Tactical Note</strong>: Prefer straight wall alignments for maximum protection; avoid relying on walls alone to shield critical defenses against artillery or long-range units.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Resource and Mobility Trade-offs</h6>
+                        <ul>
+                            <li><strong>Cost</strong>: Overbuilding walls, especially T2, consumes significant metal and build power, potentially diverting resources from units or economy.</li>
+                            <li><strong>Mobility Block</strong>: Walls can hinder friendly unit movement, especially <strong>Rocket Bots</strong>, if not spaced properly, delaying reactions to enemy maneuvers.</li>
+                            <li><strong>Tactical Note</strong>: Use blueprints with spaced or checkerboard patterns to minimize resource waste and maintain unit mobility; balance wall construction with economic and military needs.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusion Section -->
+        <div class="row">
+            <h5 class="w-100">Conclusion</h5>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Strategic Insights</h6>
+                        <p>Walls in Beyond All Reason offer powerful defensive and tactical options for Armada players when used strategically. <strong>Dragon's Teeth</strong> provide economical early game protection against direct fire, while <strong>T2 Walls</strong> enhance mid to late game defenses against a broader range of threats. Their ability to create attack voids and funnel enemies into kill zones is a subtle superpower, but limitations like projectile penetration and mobility constraints require careful planning. Use spaced or checkerboard patterns to balance defense with flexibility, and pair walls with mobile units and static defenses to maximize their impact on the battlefield.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Beyond All Reason Armada Strategy Guide | Expandable Resource for Commanders</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

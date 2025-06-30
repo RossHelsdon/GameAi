@@ -1,0 +1,141 @@
+To learn to play Beyond All Reason you need
+to take it one small step at a time, because this grand scale sci-fi themed base building
+RTS has several factions, a streaming economy system, three technology levels and hundreds
+of different buildings and units all with their specific uses. I am going to create a new game of skirmish
+vs AI as I would advise you to do yourself in order to practice what you see and learn
+in this first tutorial. The Barbarian AI is as close to real players
+as you can get, and you shouldn’t practice against any weaker AI as it will give you
+a false feeling for the game. The download link for Beyond All Reason is
+in the description along with a link to my tutorials playlist. Once you are loaded into the map the match
+doesn’t immediately start. So you have time to choose your faction and
+a place to which your main unit, the commander, will be teleported to once the match begins. Armada and Cortex are the already completed
+factions while the Legion is still being worked on at the time of making this tutorial. I would advise going with Armada until you
+learn the basics. The commander is important in many ways, and
+can do many things, which I will explain in a separate video, but for now keep in mind
+that he is the best starting builder you have and the most powerful damage dealing unit,
+while losing him means losing the match. In 1v1 you lose immediately after it’s destruction,
+but in a team game only once all commanders in your team are destroyed. You now pick the teleport spot for the commander
+by left clicking on the green part of the map and a position which has a cluster of
+closely packed metal deposits, three or four of them. Those are identified by the small white circles
+with a number inside. The number part I will explain later but for
+now remember that metal is one of the two main resources in BAR and that it is the harder
+one to obtain. Do note that when playing with AI other commanders
+will be placed after you have chosen a spot, while in multiplayer all players are simultaneously
+choosing their places so you have to be quick if you want to pick your favorite position. But multiplayer is a very long story of its
+own, and I will cover it in other tutorials. As time itself is very precious in BAR, being
+able to plan your building placement before the match even starts is incredibly useful. And you do this while holding the shift key
+and left clicking on the buildings you want to build in the menu and left clicking on
+the ground to place them. If you make a mistake, simply left click a
+new building onto that one, and it will be removed from the que. Do note that the greed circle around your
+commander unit is its build range, so you want to fit all your first buildings inside
+that range and prevent losing time to walking around. To see how much each building will cost you
+to build it we are going to go into the options to toggle on a few settings. Using the advanced type of settings display,
+and in the interface section, we need to enable the always show prices option. This shows you the metal cost of each building
+in white and energy cost of it in yellow. You also want to enable unit groups, idle
+builders, factory dock, and energy converter usage options whose use I will showcase to
+you soon. In the second page of this menu you want to
+enable the building grid option, and lastly in the accessibility tab menu you want to
+enable the simple team colors icon and as you gain experience with the game you can
+turn this off or use the different shades option for each player. But I will talk more about that in the multiplayer
+tutorials. Because BAR doesn't have a uniform start on
+each map nor the same conditions for energy production and metal extraction there isn't
+a single opening build to follow. While this makes it even harder to learn the
+game it also makes each match less predictable and more fun. Since you start each match with 1000 metal
+and 1000 energy you will quickly run out of these two main resources if you don't have
+extraction and production buildings for them. This is why in a normal beginner friendly
+start you need to have queued up two metal extractors for your commander to construct
+followed by several energy production buildings and then more metal extractors. Here I am adding three wind turbines to the
+build que as there is wind on this map. Alternatively, if there is distance involved
+in building these metal extractors you can build three of them at start, but as they
+each cost 500 energy, and your commander produces only 25 energy per second on its own, you
+are in danger of stalling your future building and production due to running out of energy
+which is a large part of the build cost for future wind turbines. However, on a map with no wind, where you
+have to spend metal for solar collectors anyway, a start with three metal extractors, even
+if they are close to each other, and will drain your entire energy reserve is not a
+problem. Because not only do you need all that extra
+metal production since you are using it to construct solar collectors, you also don’t
+need to save energy as those solar collectors don’t need it for their building. Each time you start you have to first check
+what is the strength of the wind on the map you are playing by looking at the number on
+this info card. The top number shows the minimum wind speed,
+which doesn’t have to always be a 0, and the bottom one shows the maximum wind speed. If you are playing on a map with no wind at
+all, as shown by this icon, wind turbines are disabled and you have to construct solar
+collectors. These produce energy at a constant rate while
+the energy wind turbines produce varies with the wind speed. A general rule is that the lower the maximum
+wind speed is the more likely you have to add one or more solar collectors to your starting
+build. Now about those numbers inside the metal spot. Those show the income generated by metal extractors
+built on them. Most maps have metal spots with higher numbers
+in their middle, giving you an incentive to build out, take over those rich metal spots
+and defend them, giving you a place to form your outer territory limits and defensive
+outposts. This is all precisely why you can’t create
+a single build order in Beyond All Reason as you have to adapt not just to the starting
+wind conditions on each map, but also to the speed of the wind once the match starts. Don’t be afraid to change your building
+plans and react to a huge drop in wind speed by building a solar collector you didn’t
+plan on. You can easily build one ahead of the rest
+of the que by holding the spacebar key as you left click to place it. This forces the commander to build it before
+he continues with the rest of the originally queued up buildings. If you have your own tips for new players
+or want to share your build order please do so in the comments below and feel free to
+suggest which gameplay topic I should cover in future tutorials. Now that you have learned how to set up the
+optimal starting economy of metal and energy income you have probably noticed that in BAR
+these resources aren’t spent in batches but slowly drained from stockpiles as you
+use them. This is called a streaming economy. It is also the reason why your metal and energy
+bars on the top of the screen have five numbers instead of the one or two like in most RTS
+games. The bottom green number is your resource income. The top number is in bright red as that is
+the amount of the resource you are currently spending from both your active production
+AND stockpile. While the other red number shows how much
+you are spending only from your active production. So when the brighter red number is higher
+than the other one that means you are draining your stockpiles. The amount you have stockpiled is shown at
+the middle, while the maximum amount of resources you can stockpile is shown at the right. The two red boxes on the resource bars we
+will skip for now, and talk about in future tutorials while I need to make a small digression
+to explain the white box in the energy bar. That one represents the point after which
+energy is given over to energy converter buildings which turn energy into metal. This is mostly part of the late economy, but
+can be useful at the start if you have extra energy and lack the ability to conquer more
+metal spots. In those conditions you construct energy converters
+which have a constant rate of 70 energy for 1 metal at the first technology tire. To better see and use this gameplay mechanics
+is the reason we enabled the option in the interface menu called energy converter usage. It shows up here once you have constructed
+your first energy converter and you can see how well they are working. When you are overflowing with energy, which
+means that you are producing more than you are spending, you can move the white box on
+the energy bar to the right to take full advantage of excess energy. But if something happens and your energy production
+goes down, you can move that white box to the left to limit how much energy do energy
+converters take and prevent them from paralyzing the rest of your buildings or constructors
+which are also using energy. There is also a way of producing energy from
+geothermal sources, harvesting the environment like trees, and from tidal waves, but I think
+it would be too much for this beginners tutorial, so let's leave those for a future one. Going back to our stable metal and energy
+production, it is time to now put it to use. Your next building should be a bot or a vehicle
+lab. And for beginners a bot lab is probably the
+simpler choice as it offers fewer, very specialized, units and the bonus Lazarus bot which I need
+to make a whole video on. What is very important to know is that you
+can click on the bot lab and in its build menu to start queuing up units even before
+it is built. Again, there is no one build order for the
+win, and depends on your position, role in the match and faction. My advice would be left clicking on the constructor
+bot once, than holding the shift key and left clicking on the tick, which is a fast scout
+bot, to order 5 at once, after that going back to the construction bot for 3 more of
+them and than clicking twice on the pawn infantry bot while holding the shift key to order 10
+of them. The constructor comes with extra construction
+options that your commander doesn’t have. The scout has a tiny gun but a wide line of
+sight and high speed. While the infantry bot has much more firepower
+and HP. When the commander finishes the construction
+of the bot lab you can select him and right click on the lab to add his own build power
+to that of the bot lab and produce units out of it much faster. Build power can be considered a 3rd game resource
+and will also get a dedicated tutorial video. This extra build power however comes at a
+high energy cost so you want to be ready to stop it and build new energy production builds
+as you drain your stockpile of energy. A handy way to keep expanding energy production
+is to hold the shift key and drag your wind turbine to draw a line of them. If you also hold the alt key then you can
+do double or triple lines at once. Those lines are dangerous as when power production
+buildings are destroyed they explode and damage surrounding buildings, so you want to add
+yet another key, this time Z to put some distance between them and prevent such chain reactions. So to repeat, that is hold shift, left click
+to draw a line, alt to double the line and Z to add gaps in between. The gaps will carry over in all future matches. Same thing happens to unit groups if you use
+ALT plus a number when forming such a group and additionally when each new unit of the
+same type is produced it is automatically added to that group. On the right side of the screen you can see
+the factory dock option which we enabled in the interface options and you can keep an
+eye on it to see what unit you are currently producing in each individual lab. You can also click and produce units from
+it, whiteout going back to base. Each construction bot you produce will automatically
+add his build power to the lab he comes out of until you give him a new order. I would advise using it to construct a construction
+turret as that increases your build power in the range of the turret as it adds its
+200 build power to any active construction or repair project in its range. It can’t start a construction process on
+its own but it can finish one without your commander or construction bots being present. And this is where I have to stop as I think
+this is not just enough information to get you started but a lot to practice as well,
+because properly balancing resource income with producing units and constructing new
+buildings, which are both resource drains, is the most difficult part of learning Beyond
+all Reason. Cards on the screen and links in the description
+will take you to tutorials on other subjects but I must advise first mastering the content
+of this tutorial as there is more to learn in this game than you can possibly imagine. Thank you for watching and happy gaming. 

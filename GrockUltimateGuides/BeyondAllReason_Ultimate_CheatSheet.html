@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond All Reason: Ultimate Cheat Sheet</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        h1 {
+            text-align: center;
+            color: #212529;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+        h5 {
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-body {
+            padding: 15px;
+            flex: 1;
+            overflow-y: auto;
+        }
+        ul {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        strong {
+            color: #dc3545;
+        }
+        .row {
+            margin-bottom: 20px;
+        }
+        .col-md-6, .col-md-4 {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #6c757d;
+            font-size: 0.8rem;
+        }
+        @media (max-width: 768px) {
+            .col-md-6, .col-md-4 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Beyond All Reason: Ultimate Cheat Sheet</h1>
+        <p class="text-center mb-4">Quick reference for keyboard shortcuts during intense gameplay. Organized by command area for fast access!</p>
+
+        <!-- Commander Shortcuts Section -->
+        <div class="row">
+            <h5 class="w-100">Commander Shortcuts</h5>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Navigation & Selection</h6>
+                        <ul>
+                            <li><strong>Ctrl+C</strong>: Instantly find and select your <strong>Commander</strong> anywhere on the map.</li>
+                            <li><strong>Ctrl+B</strong>: Cycle through idle buildings and workers to manage inactive assets.</li>
+                            <li><strong>Tab</strong>: Directly select your <strong>Commander</strong> from idle units.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Combat & Abilities</h6>
+                        <ul>
+                            <li><strong>D</strong>: Activate <strong>D-Gun</strong> (500 energy, one-hit kill, short range; avoid experimental units).</li>
+                            <li><strong>K</strong>: Toggle <strong>Cloak</strong> for near-invisibility (low energy when still, high when moving; detectable by radar/close enemies).</li>
+                            <li><strong>Ctrl+D</strong>: Self-destruct <strong>Commander</strong> or units for surprise damage/metal denial (check radius with Space+X).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Unit & Army Management Section -->
+        <div class="row">
+            <h5 class="w-100">Unit & Army Management</h5>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Selection & Grouping</h6>
+                        <ul>
+                            <li><strong>Q</strong>: Select all units of a type on screen (e.g., all <strong>Grunts</strong>).</li>
+                            <li><strong>Ctrl+Q</strong>: Split selected units into halves for tactical grouping.</li>
+                            <li><strong>Ctrl+Z</strong>: Select all units of a type across the entire map.</li>
+                            <li><strong>Double-Click</strong>: Select all units of a type in view.</li>
+                            <li><strong>Alt+Number</strong>: Set auto groups (e.g., <strong>Grunts</strong> on 1; persists between games).</li>
+                            <li><strong>Ctrl+Tilde</strong>: Remove auto group assignments.</li>
+                            <li><strong>Ctrl+Tap</strong>: Select nearest idle <strong>Constructor</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Movement & Combat Commands</h6>
+                        <ul>
+                            <li><strong>Ctrl+Click</strong>: Move selected group in formation at slowest unit speed for coordination.</li>
+                            <li><strong>Hold-Click Drag</strong>: Draw a line to evenly spread army across it (ideal for cliffs/surrounding).</li>
+                            <li><strong>F</strong>: Issue <strong>Fight</strong> command for backline units (stop to attack) or during dogfights for air units (engage enemies).</li>
+                            <li><strong>A + Hold Right-Click</strong>: Spread <strong>Bomber</strong> damage over multiple targets by dragging attack line (air combat).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Production & Queue Management</h6>
+                        <ul>
+                            <li><strong>T</strong>: Set repeat builds (e.g., <strong>Grunts</strong>) or movements for continuous production.</li>
+                            <li><strong>Shift+Q</strong>: Set repeated patrols under artillery fire with units on repeat.</li>
+                            <li><strong>Alt</strong>: Add single unit (e.g., <strong>Constructor</strong>) to queue without repeating.</li>
+                            <li><strong>Spacebar</strong>: Insert new action at front of build queue without canceling existing orders.</li>
+                            <li><strong>N</strong>: Skip current command in queue to move to the next (useful if builder is stuck).</li>
+                            <li><strong>Ctrl+N</strong>: Remove last command in the queue to streamline tasks.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Build & Economy Management Section -->
+        <div class="row">
+            <h5 class="w-100">Build & Economy Management</h5>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Building Shortcuts</h6>
+                        <ul>
+                            <li><strong>Shift</strong>: Queue buildings pre-game or drag lines of structures (e.g., <strong>Wind Turbines</strong>).</li>
+                            <li><strong>Shift+Alt</strong>: Build structures in boxes (e.g., <strong>Wind Turbines</strong>) for efficient placement.</li>
+                            <li><strong>Z/X</strong>: Spread build grid to avoid chain explosions (e.g., space out <strong>Wind Turbines</strong>).</li>
+                            <li><strong>Space</strong>: Split build tasks among builders for faster completion.</li>
+                            <li><strong>Alt+Z / Alt+X</strong>: Automatically space out buildings to prevent chain reactions or splash damage (saved per building type).</li>
+                            <li><strong>Shift+Space</strong>: Smart insert new task into queue based on walking distances for builders.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Resource & View Tools</h6>
+                        <ul>
+                            <li><strong>F7</strong>: Toggle <strong>Metal View</strong> to spot untaken <strong>Metal Extractors</strong> on the map.</li>
+                            <li><strong>Space+X</strong>: Check explosion radius of selected buildings/units (red rings for death, glowing for self-destruct).</li>
+                            <li><strong>Alt+Drag</strong>: Area reclaim targeting only similar objects (e.g., start on <strong>Wind Turbine</strong> to reclaim only that type).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Factory & Repair Shortcuts</h6>
+                        <ul>
+                            <li><strong>Alt+Drag Repair</strong>: Set looping area repair for <strong>Constructor Turrets</strong> to stay assigned to a build zone (e.g., for multiple buildings).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Communication & Map Interaction Section -->
+        <div class="row">
+            <h5 class="w-100">Communication & Map Interaction</h5>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Drawing & Pinging</h6>
+                        <ul>
+                            <li><strong>Tilde+Q</strong>: Draw on map for team communication.</li>
+                            <li><strong>Tilde+Middle Click</strong>: Place specific pings on map for alerts.</li>
+                            <li><strong>Tilde+Right Click</strong>: Delete drawings on map.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Camera & Alerts</h6>
+                        <ul>
+                            <li><strong>F3</strong>: Jump to ping or alert location for quick response.</li>
+                            <li><strong>Ctrl+Scroll</strong>: Rotate camera up/down for better view.</li>
+                            <li><strong>Alt</strong>: Speed up camera movement when combined with other controls.</li>
+                            <li><strong>Ctrl+T</strong>: Switch to map overview for strategic view.</li>
+                            <li><strong>Ctrl+F7</strong>: Hide UI for clear screenshots or focus.</li>
+                            <li><strong>Alt + Mouse to Edge</strong>: Adjust camera perspective by sliding to screen edge.</li>
+                            <li><strong>Middle Mouse Button</strong>: Change camera perspective directly.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Beyond All Reason Ultimate Cheat Sheet | Quick Reference for Keyboard Shortcuts</p>
+    </footer>
+
+    <!-- Bootstrap JS (optional for interactivity, if needed) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

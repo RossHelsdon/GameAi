@@ -10,6 +10,10 @@
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Placeholder for Header to prevent layout shift -->
+    <div id="header-placeholder"></div>
+    <!-- Header -->
+    <div id="header-container"></div>
     <!-- Placeholder for Navigation Bar to prevent layout shift -->
     <div id="navbar-placeholder"></div>
     <!-- Navigation Bar -->
@@ -30,6 +34,28 @@
                 });
                 // Hide placeholder once navbar is loaded
                 $("#navbar-placeholder").hide();
+            });
+            $("#header-container").load("partials/header.html", function() {
+                // Hide placeholder once header is loaded
+                $("#header-placeholder").hide();
+                // Dark mode toggle functionality
+                const darkModeToggle = document.getElementById('darkModeToggle');
+                const body = document.body;
+                // Check for saved dark mode preference
+                if (sessionStorage.getItem('darkMode') === 'enabled') {
+                    body.classList.add('dark-mode');
+                    darkModeToggle.checked = true;
+                }
+                // Toggle dark mode on change
+                darkModeToggle.addEventListener('change', function() {
+                    if (this.checked) {
+                        body.classList.add('dark-mode');
+                        sessionStorage.setItem('darkMode', 'enabled');
+                    } else {
+                        body.classList.remove('dark-mode');
+                        sessionStorage.setItem('darkMode', 'disabled');
+                    }
+                });
             });
         });
     </script>

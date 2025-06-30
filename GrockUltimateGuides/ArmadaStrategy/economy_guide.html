@@ -6,117 +6,29 @@
     <title>Beyond All Reason: Armada Economy Guide</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <style>
-        body {
-            background-color: #f8f9fa;
-            color: #343a40;
-            padding: 20px;
-            font-size: 0.9rem;
-        }
-        .container {
-            max-width: 1200px;
-        }
-        h1 {
-            text-align: center;
-            color: #212529;
-            margin-bottom: 30px;
-            font-size: 1.8rem;
-        }
-        h5 {
-            color: #495057;
-            border-bottom: 2px solid #dee2e6;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
-            font-size: 1.1rem;
-        }
-        .card {
-            border: none;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-        .card-body {
-            padding: 15px;
-            flex: 1;
-            overflow-y: auto;
-        }
-        ol {
-            padding-left: 20px;
-            margin-bottom: 0;
-        }
-        li {
-            margin-bottom: 5px;
-        }
-        strong {
-            color: #dc3545;
-        }
-        .row {
-            margin-bottom: 20px;
-        }
-        .col-md-6, .col-md-12 {
-            margin-bottom: 15px;
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #6c757d;
-            font-size: 0.8rem;
-        }
-        .navbar {
-            margin-bottom: 30px;
-        }
-        @media (max-width: 768px) {
-            .col-md-6, .col-md-12 {
-                flex: 0 0 100%;
-                max-width: 100%;
-            }
-        }
-    </style>
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Armada Strategy Guide</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="early_game_economy.html">Early Game Economy</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="frontline_defense.html">Frontline Defense</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="late_game_scaling.html">Late Game Scaling</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="shortcuts_cheat_sheet.html">Shortcuts Cheat Sheet</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cortex_bots_guide.html">Cortex Bots Guide</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="economy_guide.html">Economy Guide</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="turrets_t1_guide.html">T1 Turrets Guide</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="walls_guide.html">Walls Guide</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="air_strategy_guide.html">Air Strategy Guide</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <!-- Navigation Bar -->
+    <div id="navbar-container"></div>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        // Load the navbar partial
+        $(document).ready(function() {
+            $("#navbar-container").load("partials/navbar.html", function() {
+                // Set active class based on current page
+                var currentPage = window.location.pathname.split('/').pop() || 'index.html';
+                $('.navbar-nav a').each(function() {
+                    var href = $(this).attr('href');
+                    if (href === currentPage) {
+                        $(this).addClass('active');
+                        $(this).attr('aria-current', 'page');
+                    }
+                });
+            });
+        });
+    </script>
 
     <div class="container">
         <h1>Armada Economy Guide</h1>

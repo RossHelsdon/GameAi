@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond All Reason: Air Strategy Guide</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        h1 {
+            text-align: center;
+            color: #212529;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+        h5 {
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+            font-size: 1.1rem;
+        }
+        .card {
+            border: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-body {
+            padding: 15px;
+            flex: 1;
+            overflow-y: auto;
+        }
+        ul, ol {
+            padding-left: 20px;
+            margin-bottom: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        strong {
+            color: #dc3545;
+        }
+        .row {
+            margin-bottom: 20px;
+        }
+        .col-md-6, .col-md-12 {
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #6c757d;
+            font-size: 0.8rem;
+        }
+        .navbar {
+            margin-bottom: 30px;
+        }
+        @media (max-width: 768px) {
+            .col-md-6, .col-md-12 {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Armada Strategy Guide</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="early_game_economy.html">Early Game Economy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="frontline_defense.html">Frontline Defense</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="late_game_scaling.html">Late Game Scaling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="shortcuts_cheat_sheet.html">Shortcuts Cheat Sheet</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cortex_bots_guide.html">Cortex Bots Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="economy_guide.html">Economy Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="turrets_t1_guide.html">T1 Turrets Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="walls_guide.html">Walls Guide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="air_strategy_guide.html">Air Strategy Guide</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Air Strategy Guide</h1>
+        <p class="text-center mb-4">A comprehensive guide to mastering the air role in Beyond All Reason, integrated into the Armada Strategy Guide. Learn the strategies and tactics to dominate the skies and support your team effectively.</p>
+
+        <!-- Introduction Section -->
+        <div class="row">
+            <h5 class="w-100">Overview</h5>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Understanding the Air Role</h6>
+                        <p>Welcome, aspiring air commanders, to <em>Beyond All Reason</em>, a real-time strategy game where control of the skies can determine the outcome of battles. This guide focuses on the <strong>Air</strong> role, a pivotal position that can provide critical scouting, defense against raids, and devastating attacks. As an air player, you hold one of the most important roles on your team. Without air support, your team is vulnerable to enemy air dominance. Your primary responsibilities include scouting, catching raids, defending against air raids, and killing with air units. Air units are energy-intensive, requiring a robust economy to sustain production. This guide provides a framework to balance resource management with air dominance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Early Game Setup Section -->
+        <div class="row">
+            <h5 class="w-100">Starting Strong: Early Game Setup</h5>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Resource Opening</h6>
+                        <ul>
+                            <li><strong>Faction Choice</strong>: Opt for <strong>Core</strong> as the strongest air faction due to access to the <strong>Shuriken</strong>, a T1 stun aircraft effective against raids. <strong>Arm</strong> offers the T2 <strong>Stiletto</strong> for late-game raid control, but <strong>Core</strong> excels early.</li>
+                            <li><strong>Metal Extractors (Maxes)</strong>: Begin by queuing 3 <strong>Metal Extractors</strong> to secure metal income on key deposits.</li>
+                            <li><strong>Energy Setup</strong>: Build 2 <strong>Solar Collectors</strong> initially to bank energy for the third <strong>Metal Extractor</strong>, as air units demand high energy costs.</li>
+                            <li><strong>Bot Lab First</strong>: Start with a <strong>Bot Lab</strong> for flexibility. This allows production of ground units like <strong>Grunts</strong> or <strong>Lazarus</strong> for early defense or reclaiming resources (e.g., rocks or trees on maps like Supreme Strait) before transitioning to air.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Initial Builds</h6>
+                        <ul>
+                            <li><strong>Construction Units</strong>: Queue 3 <strong>Construction Bots</strong> from the <strong>Bot Lab</strong>. Assign the first to build a <strong>Metal Extractor</strong> and a <strong>Nano Turret</strong> (positioned to cover starting <strong>Maxes</strong> for future T2 upgrades). The second and third bots focus on <strong>Wind Turbines</strong> at the back of the map, within range of a <strong>Construction Turret</strong> for build speed.</li>
+                            <li><strong>Commander Role</strong>: Use your <strong>Commander</strong> to build <strong>Wind Turbines</strong> continuously, topping off energy reserves. Assist with the <strong>Construction Turret</strong> if energy is abundant.</li>
+                            <li><strong>Transition to Air</strong>: Reclaim the <strong>Bot Lab</strong> around 3 minutes if metal stalls (or keep it for additional <strong>Grunts</strong>/<strong>Lazarus</strong> if needed) and build an <strong>Aircraft Plant</strong>. Ensure <strong>Energy Storage</strong> is in place to support production.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Core Air Build Order and Strategies Section -->
+        <div class="row">
+            <h5 class="w-100">Core Air Build Order and Strategies</h5>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Early Air Production</h6>
+                        <ul>
+                            <li><strong>Energy Focus</strong>: Maintain a high volume of <strong>Wind Turbines</strong> (aim for a 5:1 ratio with <strong>Energy Converters</strong>) to support air unit costs. Keep the energy slider high to prevent shutdowns during wind drops.</li>
+                            <li><strong>First Air Units</strong>: Queue 10 <strong>Fighters</strong> (e.g., <strong>Falcons</strong> for Core) as an insurance policy against enemy bombing runs or light gunships. This protects your backline from early air threats.</li>
+                            <li><strong>Delay T2 Yourself</strong>: Avoid building your own T2 lab early (3200 metal for <strong>Advanced Aircraft Plant</strong>). Instead, buy a T2 <strong>Constructor Bot</strong> (e.g., <strong>Hercules</strong>) from a teching ally around 7 minutes to upgrade to <strong>Advanced Metal Extractors (Amaxes)</strong> for increased metal income (2.4 to 9.5 per extractor).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Scaling Economy & Air Unit Roles</h6>
+                        <ul>
+                            <li><strong>Energy Converters</strong>: Build <strong>Energy Converters</strong> to turn excess energy into metal, crucial for sustaining air production. Monitor wind levels (e.g., 16/16 is ideal) to avoid energy shortages.</li>
+                            <li><strong>Nano Turrets</strong>: Add more <strong>Nano Turrets</strong> to boost build power, especially when scaling to T2 or handling multiple <strong>Amaxes</strong>.</li>
+                            <li><strong>Reclaim for Resources</strong>: Use <strong>Lazarus</strong> units to reclaim map resources or early structures like the <strong>Bot Lab</strong> if metal is tight, ensuring a smooth transition to air focus.</li>
+                            <li><strong>T1 Fighters</strong>: Start with T1 <strong>Fighters</strong> (e.g., <strong>Arm T1 Fighter</strong> is strong pound-for-pound for metal cost) for early air defense and scouting.</li>
+                            <li><strong>Shurikens (Core)</strong>: Produce <strong>Shurikens</strong>, light paralyzer drones, to stop ground raids. Keep them on "Fly" mode (not "Land") for instant response, using fight commands to paralyze enemies without needing to kill them.</li>
+                            <li><strong>Bombers & T2 Fighters</strong>: Build <strong>Bombers</strong> for offensive runs against enemy backlines, targeting <strong>Metal Extractors</strong> or production facilities. Transition to T2 <strong>Nighthawks</strong>, the best fighters in the game, for superior air control and stealth capabilities against enemy defenses like <strong>Mercury</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Advanced Air Tactics Section -->
+        <div class="row">
+            <h5 class="w-100">Advanced Air Tactics</h5>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Fighter Wall Setup & Bombing Run Techniques</h6>
+                        <ul>
+                            <li><strong>Defensive Wall</strong>: Create a "Fighter Wall" by setting a patrol route near your base frontline with an <strong>Advanced Aircraft Plant</strong>. Put <strong>Nighthawks</strong> (or T1 <strong>Fighters</strong> if early) on repeat production to form a protective barrier against bombing runs.</li>
+                            <li><strong>Countering Critical Mass</strong>: Beware of enemy fighter walls or concentrated air pushes. If outnumbered, use radar intel to pull your fighters back or flank to target vulnerable <strong>Bombers</strong> behind their wall, disrupting their critical mass advantage.</li>
+                            <li><strong>Fight Commands</strong>: Always issue "Fight" commands (F key + left-click, shows purple glow) instead of "Move" commands during dogfights to ensure your fighters engage enemies effectively.</li>
+                            <li><strong>Spread Damage</strong>: Avoid overkilling single targets with <strong>Bombers</strong>. Use the attack command (A key + hold right-click) to drag a line across multiple targets (e.g., 3 <strong>Metal Extractors</strong>), spreading bombs for wider coverage.</li>
+                            <li><strong>Target Selection & Sequential Runs</strong>: Scout enemy bases with units like <strong>Blinks</strong> to identify production buildings or high-value targets. Focus bombing runs on less defended areas (e.g., plateaus or caves with limited line of sight) for maximum impact. During a run, target one area, wait for bombs to drop, then shift to the next target. Stack <strong>Bombers</strong> together for potency rather than spreading them out, ensuring concentrated damage.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Late-Game Air Dominance</h6>
+                        <ul>
+                            <li><strong>T2 Aircraft Plant</strong>: After securing 4+ <strong>Amaxes</strong>, reclaim the T1 <strong>Aircraft Plant</strong> and build a T2 <strong>Advanced Aircraft Plant</strong> (3200 metal) for access to advanced units like <strong>Nighthawks</strong> or <strong>Stiletto</strong> (Arm T2 stun aircraft for late-game raid control).</li>
+                            <li><strong>Combined Attacks</strong>: Coordinate air with ground assaults to split enemy defenses. Use <strong>Bombers</strong> to neutralize static defenses like <strong>Light Laser Turrets</strong> while ground units push.</li>
+                            <li><strong>Anti-Air Awareness</strong>: If the enemy lacks anti-air (e.g., <strong>Obelisks</strong> or <strong>Mercury</strong>), exploit this with relentless bombing runs to cripple their backline, potentially winning the game within 10 minutes.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Key Takeaways Section -->
+        <div class="row">
+            <h5 class="w-100">Key Takeaways for New Air Players</h5>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Essential Tips</h6>
+                        <ul>
+                            <li><strong>Framework First</strong>: Follow the basic build order—start with <strong>Bot Lab</strong> for flexibility, transition to <strong>Aircraft Plant</strong> by 3 minutes, and prioritize energy with <strong>Wind Turbines</strong> (5:1 ratio with <strong>Converters</strong>).</li>
+                            <li><strong>Fulfill Four Roles</strong>: Focus on scouting (<strong>Blinks</strong>), catching raids (<strong>Shurikens</strong>), defending air threats (<strong>Fighters</strong>), and killing with air (<strong>Bombers</strong> or gunships).</li>
+                            <li><strong>Energy is King</strong>: Air units are energy-intensive; maintain a surplus with <strong>Wind Turbines</strong> and <strong>Solar Collectors</strong>, adapting to map wind conditions.</li>
+                            <li><strong>Tactical Precision</strong>: Use fighter walls for defense, spread bombing damage with drag commands, and counter enemy air with fight commands and flanking.</li>
+                            <li><strong>Scale Smart</strong>: Buy T2 from allies (~7 minutes) for <strong>Amaxes</strong> before building your own T2 lab (~12 minutes or after 4 <strong>Amaxes</strong>) to sustain metal for advanced air units.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusion Section -->
+        <div class="row">
+            <h5 class="w-100">Conclusion</h5>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h6 class="card-title">Strategic Insights</h6>
+                        <p>Mastering the air role in <em>Beyond All Reason</em> offers a game-changing advantage, allowing you to scout, defend, and destroy with unmatched versatility. By adhering to this framework—building a robust energy economy with <strong>Wind Turbines</strong>, establishing early air presence with <strong>Fighters</strong> and <strong>Shurikens</strong>, and scaling to devastating T2 units like <strong>Nighthawks</strong>—you can dominate the skies and secure victory for your team. Practice these tactics, adapt to enemy strategies, and soar to success as an air commander in <em>Beyond All Reason</em>!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Beyond All Reason Armada Strategy Guide | Expandable Resource for Commanders</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -14,6 +14,36 @@ body.dark-mode {
     color: #f8f9fa;
 }
 
+.dark-mode a {
+    color: #4da6ff;
+}
+
+.dark-mode a:hover {
+    color: #8ccbff;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode p,
+.dark-mode li,
+.dark-mode ul,
+.dark-mode ol,
+.dark-mode span,
+.dark-mode div {
+    color: #f8f9fa;
+}
+
+.dark-mode .navbar,
+.dark-mode .navbar-nav,
+.dark-mode .navbar-collapse {
+    background-color: #343a40;
+    color: #f8f9fa;
+}
+
 .container {
     max-width: 1200px;
     padding-bottom: 20px;

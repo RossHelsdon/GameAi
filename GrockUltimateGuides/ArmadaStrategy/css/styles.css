@@ -276,6 +276,7 @@ body.dark-mode .dropdown-menu {
     background-color: #343a40;
     color: #f8f9fa;
     border: 1px solid #495057;
+    min-width: 200px; /* Ensure the dropdown scales to fit content */
 }
 
 body.dark-mode .dropdown-item {
@@ -289,6 +290,19 @@ body.dark-mode .dropdown-item:hover {
 
 body.dark-mode .form-check-label {
     color: #f8f9fa;
+}
+
+.dark-mode .form-check {
+    display: flex;
+    align-items: center;
+}
+
+.dark-mode .form-check-label {
+    margin-right: 10px; /* Position label to the left of toggle */
+}
+
+.dark-mode .form-check-input {
+    margin-left: 0; /* Ensure toggle is to the right of label */
 }
 
 /* Placeholder for Header to prevent layout shift */
